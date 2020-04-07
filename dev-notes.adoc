@@ -1,0 +1,10 @@
+= dev notes
+
+I think the following methods _could_ be sufficient:
+
+- import networkx as nx
+- g = nx.MultiDiGraph()
+- g.add_node(blah)
+- g.add_edge(from, to)
+- g.successors(blah)
+- g..predecessors(blah)
