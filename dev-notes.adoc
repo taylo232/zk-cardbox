@@ -9,6 +9,38 @@ I _think_ the following methods _could_ be sufficient:
 - g.successors(uid)
 - g.predecessors(uid)
 
+Using text files per card is impractical. Start with pickles as temp. Move to JSON? +
+Maybe a plaintext export? JSON?
+
+Use single txt file and bulk read and write?
+
 ==== Thoughts
 
 Use UID 'nodes and edges' as the *real* zk and use tags as a discovery tool to enable links to be made.
+
+==== Features
+
+- view card
+- show adjacent network
+- show wider network
+- navigate to adjacent network
+- create a new card
+- edit a card (all fields except 'sys')
+- add card links
+- edit card links
+- view predecessors and successors
+- add extra links
+- view notes by card tags
+- show orphan cards
+- show topology
+
+==== Card Data
+
+- (sys) UID
+- (sys) datetime created
+- (sys) datetime last modified
+- Title
+- Links (directional)
+- Tag list
+- Body
+- Sources

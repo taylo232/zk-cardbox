@@ -21,7 +21,7 @@ TODO:
 - python3-networkx
 - python3-matlibplot
 
-==== Links
+=== Links
 - https://zettelkasten.de/
 - https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125
 - https://networkx.github.io/
