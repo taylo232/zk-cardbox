@@ -1,15 +1,24 @@
 # zk-cardbox
 A zettelkassen using graph libraries
 
+The aim is to build a working zettelkassen system built around plain text storage and learn about graph databases in the process.
+
+All my projects follow the SCID methodology (**S**low **C**omputing, **I**ntermittent **D**evelopment)
+
 . Build a minimal graph db. Each card to contain just a single UID.
 . Learn how to link, visualise, manipulate
 
 TODO:
-. add fields per card (UID,title, tags, 'leads to', content, source)
+
+. create simple commandline for to play
+. build display and manipulation methods
+. add fields per card (UID,title, tags, 'leads to', source, content)
+. create plain text method
 . display in a gui
 . manage in a gui
 
-Links::
+
+==== Links
 - https://zettelkasten.de/
 - https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125
 - https://networkx.github.io/
