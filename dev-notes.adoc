@@ -1,10 +1,14 @@
 = dev notes
 
-I think the following methods _could_ be sufficient:
+I _think_ the following methods _could_ be sufficient:
 
-- import networkx as nx
+- _import networkx as nx_
 - g = nx.MultiDiGraph()
-- g.add_node(blah)
+- g.add_node(uid)
 - g.add_edge(from, to)
-- g.successors(blah)
-- g..predecessors(blah)
+- g.successors(uid)
+- g.predecessors(uid)
+
+==== Thoughts
+
+Use UID 'nodes and edges' as the *real* zk and use tags as a discovery tool to enable links to be made.
