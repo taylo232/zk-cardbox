@@ -3,7 +3,7 @@ A zettelkassen using graph libraries
 
 The aim is to build a working zettelkassen system built around plain text storage and learn about graph databases in the process.
 
-The first step is to build a minimal graph db. Each card to contain just a single UID and then learn how to link, visualise, manipulate
+The first step is to build a minimal graph db. Each 'card' to contain just a single UID and then learn how to link, visualise, manipulate
 
 All my projects follow the SCID methodology (**S**low **C**omputing, **I**ntermittent **D**evelopment)
 
@@ -21,3 +21,4 @@ TODO:
 - https://zettelkasten.de/
 - https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125
 - https://networkx.github.io/
+- https://medium.com/free-code-camp/i-dont-understand-graph-theory-1c96572a1401

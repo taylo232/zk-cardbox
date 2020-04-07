@@ -5,3 +5,5 @@ test.py
 *.spec
 *.o
 *.out
+*.png
+dump.py
