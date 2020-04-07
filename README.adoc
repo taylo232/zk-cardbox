@@ -1,2 +1,15 @@
 # zk-cardbox
 A zettelkassen using graph libraries
+
+. Build a minimal graph db. Each card to contain just a single UID.
+. Learn how to link, visualise, manipulate
+
+TODO:
+. add fields per card (UID,title, tags, 'leads to', content, source)
+. display in a gui
+. manage in a gui
+
+Links::
+- https://zettelkasten.de/
+- https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125
+- https://networkx.github.io/
