@@ -23,25 +23,45 @@ g.add_edge('mary', 'bill')
 g.add_edge('wendy', 'arthur')
 g.add_edge('fred', 'julie')
 
+
+i = 'mary'
+foo = g.successors(i)
+print(i,'->',foo, len(foo))
+for i in foo:
+    tg = g.successors(i)
+    print(i, '->', tg, len(tg))
+
+
+
+
+
+# g.node['mary']['age'] = 34
+# g.node['mary']['grade'] = 'good'
+# g.node['mary']['tags'] = ('bin', 'data', 'wiki')
+# # print(type(g.nodes('mary')))
+# g.node['mary']['tags'] = g.node['mary']['tags'] + ('goooo')
+# print(g.node['mary']['tags'])
+# print(g.node['mary'])
+
 #g = nx.relabel_nodes(g,{'fred':'f r e d'}, copy=False)
 
-print("=======")
-print('Directed Graph:', nx.is_directed(g))
-print("=======")
-foo = g.nodes()
-print('Nodes:',type(foo), foo)
-print("=======")
-foo = g.edges()
-print('Edges:', type(foo), foo)
-print("=======")
-print('Fred ->', g.successors('fred'))
-print('Fred <-', g.predecessors('fred'))
-print("=======", flush=True)
+# print("=======")
+# print('Directed Graph:', nx.is_directed(g))
+# print("=======")
+# foo = g.nodes()
+# print('Nodes:',type(foo), foo)
+# print("=======")
+# foo = g.edges()
+# print('Edges:', type(foo), foo)
+# print("=======")
+# print('Fred ->', g.successors('fred'))
+# print('Fred <-', g.predecessors('fred'))
+# print("=======", flush=True)
 
-sys.stderr = None                      # suppress matlibplot messages
+# sys.stderr = None                      # suppress matlibplot messages
 
-nx.draw(g, with_labels=True)
-plt.savefig("zk.png")
-plt.show()
+# nx.draw(g, with_labels=True)
+# plt.savefig("zk.png")
+# plt.show()
 
-sys.stderr = sys.__stderr__            # suppress matlibplot messages
+# sys.stderr = sys.__stderr__            # suppress matlibplot messages
